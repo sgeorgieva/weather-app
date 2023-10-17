@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
-import CardComponent from './pages/CardComponent';
+import CardsPage from './pages/CardsPage';
 import {
   Dropdown,
   DropdownItem,
@@ -99,7 +99,7 @@ function App() {
       {!dropdownOpen &&
         <div className="cards">
           {cloneData[0]?.daily?.slice(0, 5)?.map((filteredItem, i) => (
-            <CardComponent key={i} daily={filteredItem} itemNumber={i} units={units} data={data} />
+            <CardsPage key={i} daily={filteredItem} itemNumber={i} units={units} data={data} />
           ))}
         </div>
       }
