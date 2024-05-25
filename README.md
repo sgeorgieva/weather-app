@@ -13,7 +13,7 @@ First, install the programs required to run the application:
  Next, clone this repository and install dependencies:
 
 ```
-git clone git@github.com:SantiyaGeorgieva/weather-app.git
+git clone git@github.com:sgeorgieva/weather-app.git
 ```
 
 ```
